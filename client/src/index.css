@@ -66,6 +66,19 @@ body {
   color: white;
 }
 
+.delete-button {
+  position: absolute;
+  top: 60px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.delete-button:hover {
+  background-color: green;
+  color: white;
+}
+
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
@@ -74,4 +87,8 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.form {
+  margin: 10%;
 }
